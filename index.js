@@ -1,9 +1,19 @@
-function takeANumber(katzDeliLine, name) {
+// function takeANumber(katzDeliLine, name) {
   
-  var position = katzDeliLine.length + 1;
-  var string = "Welcome, " + name + ". You are number " + position + " in line.";
-  katzDeliLine.push(name);
-  return string;
+//   var position = katzDeliLine.length + 1;
+//   var string = "Welcome, " + name + ". You are number " + position + " in line.";
+//   katzDeliLine.push(name);
+//   return string;
+var sum = 0;
+function takeANumber(katzDeliLine){
+//input - an empty Array
+//output - result string
+//hp - create sum var, push to array, increment, create result var, return
+katzDeliLine.push(sum);
+sum++
+return "Please take a number";
+
+
 }
 
 function nowServing(katzDeliLine) {
